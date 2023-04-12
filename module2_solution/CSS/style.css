@@ -1,1 +1,91 @@
+h1 { color: blue;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titel1 {
+    border: 1px solid black;
+    width: fit-content;
+    float: right;
+    background-color: rgb(213, 95, 62);
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.titel2 {
+    border: 1px solid black;
+    width: fit-content;
+    float: right;
+    background-color: rgb(165, 155, 42);
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.titel3 {
+    border: 1px solid black;
+    width: fit-content;
+    float: right;
+    background-color: rgb(83, 165, 42);
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
 
+.row {
+    width: 100%;
+}
+@media (min-width:992px)
+{
+    .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    width: 32%;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: aqua;
+}
+}
+@media (min-width:767px) and (max-width:991px)
+{
+    .col-mdr-6, .col-mdl-6,.col-md-12 {
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: aqua;
+    }
+    .col-mdr-6 {
+        width: 48.5%;
+        float: right;
+    }
+    .col-mdl-6 {
+        width: 48.5%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+@media (max-width:767px)
+{
+    .col-sm-12 {
+        
+        border: 1px solid black;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: aqua;
+        
+    }
+
+}
